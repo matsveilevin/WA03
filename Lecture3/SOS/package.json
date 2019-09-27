@@ -1,0 +1,32 @@
+{
+  "name": "sipmle-odata-service",
+  "version": "1.0.0",
+  "description": "simple server for work on oData",
+  "main": "./build.min/build.min.js",
+  "keywords": [
+    "oData",
+    "server",
+    "MongoDB"
+  ],
+  "author": "matsvei.levin",
+  "license": "ISC",
+  "scripts": {
+    "dev":"nodemon"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "simple-odata-server": "^1.1.1",
+    "simple-odata-server-nedb": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "grunt": "^1.0.4",
+    "grunt-babel": "^8.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-shell": "^3.0.1",
+    "load-grunt-tasks": "^5.1.0",
+    "nodemon": "^1.19.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "First Express Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matsvei.Levin",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "grunt": "^1.0.4",
+    "grunt-babel": "^8.0.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "load-grunt-tasks": "^5.1.0"
+  }
+}

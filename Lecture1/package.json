@@ -1,0 +1,25 @@
+{
+  "name": "lecture-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstServer.js",
+  "private": true,
+  "dependencies": {
+    "browserify": ">2.35.2",
+    "uglifyjs": ">2.3.6"
+  },
+  "devDependencies": {
+    "watchify": ">0.1.0",
+    "catw": ">0.0.1",
+    "tap": ">0.4.4"
+  },
+  "scripts": {
+    "build-js": "browserify ./firstServer.js | uglifyjs -mc > ./bundle.js",
+
+    "build": "npm run build-js && node ./consoleHi.js",
+
+    "start": "node firstServer.js"
+  },
+  "author": "Pes Smerdyashiy",
+  "license": "ISC"
+}
