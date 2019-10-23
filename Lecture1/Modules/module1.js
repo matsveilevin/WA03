@@ -1,3 +1,5 @@
-name='Matsvei';
-lastname='Levin';
-exports.getFullName=()=>{`${name} ${lastname}`};
+let name='Matsvei';
+let lastname='Levin';
+exports.getFullName=()=>{
+    return `${name} ${lastname}`;
+};
